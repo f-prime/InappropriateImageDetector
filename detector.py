@@ -38,7 +38,7 @@ class detector:
             print "Yes votes {}".format(len(yes))
             print "No votes {}".format(len(no))
         
-        if len(yes) >= len(no) or len(yes) > 1000 or len(yes) + 100 > len(no) and len(yes) - 100 < len(no):
+        if len(yes) >= len(no) or len(yes) > 1000:
             
             if not __name__ == "__main__":
                 return True
